@@ -82,7 +82,7 @@ export default function Hero(){
                         </div>
                         {/* Code Content */}
                         <div className="relative overflow-hidden flex-grow">
-                            <SyntaxHighlighter language="javascript" style={nightOwl} customStyle={{ margin: 0, borderRadius: "8px", fontSize: "11px", lineHeight: "1.4", height: "100%", border: "1px solid #3c3c3c" }}>
+                            <SyntaxHighlighter language="javascript" style={nightOwl} customStyle={{ margin: 0, borderRadius: "8px", fontSize: "11px", lineHeight: "1.4", height: "100%", border: "1px solid #3c3c3c", wordWrap: "break-word", whiteSpace: "pre-wrap", textAlign: "left"}}>
                                 {codeExamples[activeTab]}
                             </SyntaxHighlighter>
                         </div>
